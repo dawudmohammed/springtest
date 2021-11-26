@@ -8,15 +8,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 
 @SpringBootTest
-@AutoConfigureMockMvc
 class TestApplicationTests {
 
-	@Autowired
-	private MockMvc mockMvc;
 
-	@Test
-	public void shouldReturnMessage(){
-		Assertions.assertEquals(1,1);
-	}
+	
 
 }
