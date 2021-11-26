@@ -13,6 +13,8 @@ public class TestController {
             status = "this is dawud";
         }else if(id==2){
             status = "this is edem";
+        }else if(id==3){
+            status = "this is beneth";
         }
         return status;
     }
